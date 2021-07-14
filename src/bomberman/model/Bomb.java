@@ -7,7 +7,8 @@ public class Bomb extends Point implements Runnable {
     }
 
     @Override
-    public void run() {
+    public void run()
+    {
 
     }
 }
