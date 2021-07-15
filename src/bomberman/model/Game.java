@@ -59,7 +59,6 @@ public class Game {
                     e.printStackTrace();
                 }
             }
-
         }
         return array;
     }

@@ -19,4 +19,11 @@ public class HandlerView extends JPanel{ //Stamperà matrice su un jpanel, sarà
     }
 
 
+
+
+
+
+
+
+
 }

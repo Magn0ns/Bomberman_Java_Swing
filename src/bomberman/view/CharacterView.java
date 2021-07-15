@@ -29,6 +29,8 @@ public class CharacterView{
         dim=48;
         index=0;
 
+        //Usa hashmap
+
             try {
                 for(int i=0;i<3;i++) {
                     Image front_img = ImageIO.read(getClass().getResourceAsStream("/bomberman/application/hero/f" + i + ".png"));
