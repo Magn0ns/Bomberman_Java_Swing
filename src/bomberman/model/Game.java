@@ -1,7 +1,5 @@
 package bomberman.model;
 
-import bomberman.application.Settings;
-
 import java.io.*;
 
 public class Game {
@@ -64,5 +62,25 @@ public class Game {
 
         }
         return array;
+    }
+
+    public void move(int direction)
+    {
+        switch (direction) {
+            case Settings.MOVE_DOWN:
+                character.j += character.speed;
+                break;
+            case Settings.MOVE_LEFT:
+                character.i -= character.speed;
+                break;
+            case Settings.MOVE_RIGHT:
+                character.i += character.speed;
+                break;
+            case Settings.MOVE_UP:
+                character.j -= character.speed;
+                break;
+            default:
+                return; //Qui metto return perchè, se ricevo un numero di direction diverso da 0 a 3, esce direttamente senza interpellare img = ....
+        }
     }
 }

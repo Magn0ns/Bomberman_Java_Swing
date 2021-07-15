@@ -1,4 +1,4 @@
-package bomberman.application;
+package bomberman.model;
 
 public class Settings {
 

@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Point { //coordinate
 
-    private int i;
-    private int j;
-    private int speed;
+    int i;
+    int j;
+    int speed;
 
     public Point(int i, int j,int speed) {
         this.i = i;
